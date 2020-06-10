@@ -13,9 +13,9 @@
 * masonry image gallery
 
 ## Essential Todos:
-* ~~ establish visual system ~~
+* ~establish visual system~
 * create main layouts--
-  * home [~~ design ~~ / implement]
+  * home [~design~ / implement]
   * mainly text pages (i.e. about) [design / implement]
   * projects [design / implement]
   * galleries [design / implement]
