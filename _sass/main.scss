@@ -1,9 +1,35 @@
-nav {
-  a {
-    text-decoration: none;
-  }
+/*
+* Copyright 2020, Remy Davison
+* Main Stylesheet for updated portfolio Website
+* https://remydavison.com
+* Layout base is Skeleton by Dave Gamache
+* Modified by Seth Cohen
+* Rights info below
+*/
 
-  .current {
-    color: green;
-  }
-}
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/9/2014
+* Sass Version by Seth Coelen https://github.com/whatsnewsaes
+*/
+
+/* Base files. */
+@import "base/normalize";
+@import "base/variables";
+@import "base/functions";
+@import "base/base-styles";
+@import "base/utils";
+@import "base/typography";
+
+/* Modules */
+@import "modules/grid";
+@import "modules/buttons";
+@import "modules/forms";
+@import "modules/lists";
+@import "modules/code";
+@import "modules/spacing";
+@import "modules/media-queries";
