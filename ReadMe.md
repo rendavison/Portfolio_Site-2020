@@ -8,7 +8,7 @@
 * project page
 
 ## Partials to Build:
-* main nav
+* ~main nav~
 * footer
 * masonry image gallery
 
@@ -20,6 +20,7 @@
   * projects [design / implement]
   * galleries [design / implement]
 * transfer old site content
+* build folder navigation for "extras"
 
 ## Secondary Todos:
 * look into smooth loading
