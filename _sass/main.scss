@@ -2,7 +2,7 @@
 * Copyright 2020, Remy Davison
 * Main Stylesheet for updated portfolio Website
 * https://remydavison.com
-* Layout base is Skeleton by Dave Gamache
+* Uses Skeleton Boilerplate by Dave Gamache
 * Modified by Seth Cohen
 * Rights info below
 */
@@ -17,18 +17,17 @@
 * Sass Version by Seth Coelen https://github.com/whatsnewsaes
 */
 
-/* Base files. */
-@import "base/normalize";
-@import "base/variables";
-@import "base/functions";
-@import "base/base-styles";
-@import "base/utils";
-@import "base/typography";
-@import "base/nav";
+@import "abstracts/functions";
+@import "abstracts/utils";
+@import "abstracts/variables";
 
-/* Modules */
-@import "modules/grid";
+@import "base/base-styles";
+@import "base/media-queries";
+@import "base/normalize";
+@import "base/spacing";
+@import "base/typography";
+
+@import "layout/grid";
+@import "layout/nav";
+
 @import "modules/buttons";
-@import "modules/forms";
-@import "modules/spacing";
-@import "modules/media-queries";
