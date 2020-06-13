@@ -9,16 +9,17 @@ $bp-larger-than-desktop   : "min-width: 1000px" !default;
 $bp-larger-than-desktophd : "min-width: 1200px" !default;
 
 // Colors
-$light-grey: #e1e1e1 !default;
-$dark-grey: #333 !default;
-$primary-color: #33c3f0 !default;
-$secondary-color: lighten($dark-grey, 13.5%) !default;
-$border-color: #ccc !default;
+$primary-color: #ff6b57 !default;
+$secondary-color: #6e5aff !default;
+$tertiary-color: #ff9700 !default;
 $link-color: #6e5aff !default;
 $font-color: #222 !default;
+$light-grey: #ccc !default;
+$dark-grey: #666 !default;
 
 // Typography
-$font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$header-family: sofia-pro, Helvetica, Arial, sans-serif !default;
+$font-family: source-sans-pro, Helvetica, Arial, sans-serif !default;
 
 //Grid Variables
 $container-width: 960px !default;

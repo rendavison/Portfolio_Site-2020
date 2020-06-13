@@ -21,8 +21,12 @@ body {
 
 a {
   color: $link-color;
+  text-decoration: none;
+
   &:hover {
-    color: darken($link-color, 5%);
+    color: lighten($link-color, 20%);
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
   }
 }
 
