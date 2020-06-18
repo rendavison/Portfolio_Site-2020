@@ -62,7 +62,7 @@
 
   .one-third.column     { width: grid-column-width(4);  }
   .two-thirds.column    { width: grid-column-width(8);  }
-  
+
   .one-half.column      { width: grid-column-width(6);  }
 
 
@@ -89,7 +89,6 @@
   .offset-by-ten.columns       { margin-left: grid-offset-length(10); }
   .offset-by-eleven.column,
   .offset-by-eleven.columns    { margin-left: grid-offset-length(11); }
-
 
   .offset-by-one-third.column,
   .offset-by-one-third.columns  { margin-left: grid-offset-length(4);  }

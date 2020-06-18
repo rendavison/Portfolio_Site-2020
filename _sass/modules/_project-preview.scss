@@ -1,0 +1,20 @@
+.project {
+  margin: 4rem 0;
+  width: 100%;
+
+  img {
+    width: 100%;
+    box-shadow: -20px 20px 0 $secondary-color;
+    border-collapse: separate;
+
+    .offset {
+      box-shadow: 20px 20px 0 $secondary-color;
+    }
+  }
+}
+
+.project-title {
+  position: absolute;
+  left: grid-offset-length(5);
+  top: 33%;
+}

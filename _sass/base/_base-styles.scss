@@ -22,6 +22,8 @@ body {
 a {
   color: $link-color;
   text-decoration: none;
+  transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
 
   &:hover {
     color: lighten($link-color, 20%);
@@ -38,4 +40,12 @@ hr {
   margin-bottom: 3.5rem;
   border-width: 0;
   border-top: 1px solid $light-grey;
+}
+
+/*thank you css-tricks for the preload trick*/
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
 }

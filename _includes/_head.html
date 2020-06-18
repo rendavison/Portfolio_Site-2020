@@ -9,3 +9,13 @@
 <!-- Stylesheets -->
 <link rel="stylesheet" href="https://use.typekit.net/iqz3eca.css">
 <link rel="stylesheet" href="/assets/css/styles.css">
+
+<!-- Import JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- STOPS TRANSITIONS FROM FIRING ON PAGE LOAD -->
+<script>
+  $(document).ready(function() {
+    $("body").removeClass("preload");
+  });
+</script>
